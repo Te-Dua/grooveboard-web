@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grooveboard — solderless printable circuit boards</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <script>
+    // Avoid a flash of light background before React mounts and reads the
+    // saved theme preference (manual toggle only, no OS-preference detection).
+    try {
+      if (localStorage.getItem('groove-theme') === 'dark') {
+        document.documentElement.style.background = '#14161a'
+      }
+    } catch (e) {}
+  </script>
+</head>
+<body style="margin:0">
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.DS_Store
+# secrets - never commit
+.env
+.env.*
+!.env.example
+# deployment-only marketing page (large inline media, server-side asset, not part of the tool)
+landing/
