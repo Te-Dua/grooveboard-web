@@ -1,0 +1,41 @@
+.env.example
+  s_988bad56665652::t_f181682c5b3b2a 1
+LICENSE
+  s_988bad56665652::t_d09c78c171b20e 1-21
+README.md
+  s_988bad56665652::t_38fcb912b67cfa 1-26
+package-lock.json
+  s_988bad56665652::t_ed6fed3177b0e1 1-2565
+src/BoardEditor.jsx
+  s_f4ac9e76272839::t_c7e0f4c422bc8a 1-666
+src/PropsPanel.jsx
+  s_f4ac9e76272839::t_b90734436c6834 1-653
+src/main.jsx
+  s_f4ac9e76272839::t_a406f49485ab94 1-12
+src/theme.jsx
+  s_f4ac9e76272839::t_d394fc68ec3af2 1-117
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "6f5772df79c2ebb888c2bf934f8044949f050cab",
+  "prompts": {},
+  "sessions": {
+    "s_988bad56665652": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8cbb8d06-da9e-4b6c-9a77-9b3b3170c711",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Shahab Khalid <shahab.khalid@deliveryhero.com>"
+    },
+    "s_f4ac9e76272839": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e698ec0c-525a-4424-8408-7cafcef39013",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Shahab Khalid <shahab.khalid@deliveryhero.com>"
+    }
+  }
+}
